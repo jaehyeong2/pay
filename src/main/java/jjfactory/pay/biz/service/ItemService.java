@@ -16,7 +16,7 @@ import java.util.NoSuchElementException;
 @RequiredArgsConstructor
 @Transactional
 @Service
-public class ItemService {
+public class ItemService{
     private final ItemRepository itemRepository;
     private final ShopRepository shopRepository;
 
